@@ -1,0 +1,13 @@
+Funcionais:
+    Testam uma grande parte do sistema.
+    Testam histórias de usuário.
+    São mais lentos e em menor volume.
+    Direcionam o sistema a cumprir os requisitos funcionais.
+    São mais alto-nível
+
+Unidade:
+    Testam uma unidade do sistema, uma classe, um método.
+    São independentes.
+    Testam se a unidade tem o comportamento esperado.
+    Ajudam a escrever código limpo.
+    São mais baixo-nível.
