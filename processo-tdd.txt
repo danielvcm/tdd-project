@@ -1,0 +1,11 @@
+O processo consiste, primeiramente em escrever o teste funcional.
+O teste funcional não passando, é necessário escrever o mínimo de código para que ele passe.
+Porém, para começar a escrever o mínimo de código, escrevemos primeiro um teste de unidade.
+Agora sim, com o teste de unidade e o funcional falhando, é que vamos escrever o código da aplicação
+Escrevendo o mínimo de código de aplicação para o teste de unidade passar, rodamos o teste novamente.
+Ele falhando escrevemos mais código da aplicação, até ele passar.
+O teste de unidade passando, verificamos se o código implementado necessita refatoração, sempre que uma refatoração
+for feita, rodamos novamente o teste de unidade para garantir que o comportamento é o mesmo.
+Com o teste de unidade passando, rodamos novamente o teste funcional, se ele falhar, voltamos a etapa de escrever
+mais testes de unidade e código de aplicação, se o teste funcional passar, vemos se o código necessita alguma refatoração.
+Após o teste funcional e o(s) de unidade(s) passarem, escrevemos mais um teste funcional e começamos novamente o ciclo TDD.
